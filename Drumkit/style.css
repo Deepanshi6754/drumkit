@@ -1,0 +1,77 @@
+ * {
+     font-size: 80px;
+     text-align: center;
+     color: white;
+     font-family: cursive;
+ }
+
+ .drum {
+     align-items: center;
+     font-size: 40px;
+     justify-content: space-around;
+     display: flex;
+     gap: 40px;
+ }
+
+ button {
+     color: rgb(15, 14, 14);
+     height: 150px;
+     width: 150px;
+     border: 8px solid rgb(81, 79, 79);
+     transition-duration: 0.4s;
+     border-radius: 50%;
+     text-shadow: 5px 10px 10px rgb(212, 11, 11);
+
+ }
+
+ .button:hover {
+     color: rgb(253, 249, 249);
+     cursor: pointer;
+     background-color: rgb(26, 25, 25);
+     box-shadow: 0px 0px 12px 8px #ece6e7;
+ }
+
+ body {
+     background-color: rgb(80, 78, 78);
+     background-image: url("https://wallpaperaccess.com/full/1116882.jpg");
+ }
+
+ .pressed {
+     opacity: 0.5;
+     box-shadow: 0 3px 4px white;
+ }
+
+ .W button {
+     background-image: url("https://th.bing.com/th/id/OIP.rgE4U6_sgrhFCkYKMWrV9gHaHa?rs=1&pid=ImgDetMain");
+     background-size: 100px;
+ }
+
+ .A {
+     background-image: url("https://th.bing.com/th/id/OIP.PESs1SY7PB6pP31vJG551gHaFx?pid=ImgDet&w=474&h=369&rs=1");
+     background-size: 180px;
+ }
+
+ .S {
+     background-image: url("https://images.squarespace-cdn.com/content/v1/59668388f9a61e5ad6d1c841/1512169023130-B1ZH3CJGPA4FMR5DMTQQ/Buk+1.jpg");
+     background-size: 100px;
+ }
+
+ .D {
+     background-image: url("https://th.bing.com/th/id/OIP.vvCFhN0uxTClaJTdvEUReAAAAA?pid=ImgDet&w=190&h=241&c=7&dpr=1.4");
+     background-size: 100px;
+ }
+
+ .J {
+     background-image: url("https://www.shutterstock.com/image-vector/drum-kit-realistic-icons-collection-600w-740876506.jpg");
+     background-size: 100px;
+ }
+
+ .K {
+     background-image: url("https://th.bing.com/th/id/OIP.kKBrwt0oJdThTQro0QXSugAAAA?w=250&h=250&rs=1&pid=ImgDetMain");
+     background-size: 100px;
+ }
+
+ .L {
+     background-image: url("https://th.bing.com/th/id/OIP.Ntj3kImCVXLpMjBdiiEZ5gHaG3?rs=1&pid=ImgDetMain");
+     background-size: 100px;
+ }
